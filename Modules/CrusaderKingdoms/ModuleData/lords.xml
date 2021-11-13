@@ -1,0 +1,332 @@
+<NPCCharacters>
+  <NPCCharacter id="lord_1_1"
+                name="{=CLqPbdiZ}Frederick I"
+                age="57"
+                voice="curt"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.empire"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="00005d2b0000034d649a77977876473b743a45888527b857869aa27956b54d3c000465a4653de87c00001105000030a30000001f000000000000000000002000" /-->
+<BodyProperties version="4" weight="0.3534" build="0.5293"  key="0005400780881442958D6978815B465767496A9C869885556D76388DA3D8B64704C65646FBFB6AA78500000000000000000000000000004B00000000297C4005"  />
+      <!-- Lucon should be older, over 60, and gaunt, ideally with a stoic's beard and a short Roman-style haircut -->
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard" />
+      </beard_tags>
+    </face>
+    <Traits>
+      <Trait id="KnightFightingSkills"
+             value="5" />
+      <Trait id="Commander"
+             value="8" />
+      <Trait id="Politician"
+             value="7" />
+      <Trait id="Manager"
+             value="7" />
+      <Trait id="Valor"
+             value="1" />
+      <Trait id="Honor"
+             value="1" />
+      <Trait id="Generosity"
+             value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_template_stoic" />
+      <EquipmentSet id="emp_civ_template_stoic"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lord_1_7"
+                name="{=I72U5ttG}Philip II"
+                age="27"
+                voice="ironic"
+                is_hero="true"
+                culture="Culture.empire"
+                occupation="Lord"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0011714fc0fc028f96938148227287b6674886898a943687452b87978a787594000f26550f889888000000000000000000000000000000000000000001fc8040" /-->
+<BodyProperties version="4" weight="0.0571" build="0.3904"  key="0002B40D0000000275B06868358758852991770258848D9436653A4B8895343500A616030A9754760000000000000000000000000000000000000000475C3084"  />
+      <!-- Garios should be middle-aged, with a soldier's face - short hair, preferably no beard. -->
+    </face>
+    <skills></skills>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="7" />
+      <Trait id="Politician"
+             value="8" />
+      <Trait id="Manager"
+             value="8" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Valor"
+             value="1" />
+      <Trait id="Mercy"
+             value="-1" />
+      <Trait id="Honor"
+             value="-1" />
+      <Trait id="Calculating"
+             value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_template_medium" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lord_1_14"
+                name="{=kadJAjaA}Isaac II"
+                default_group="Infantry"
+                age="36"
+                voice="earnest"
+                is_hero="true"
+                culture="Culture.empire"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0000ae3e50fc30045948a3188a41766557598897843a8925a7e38f3985789874000a16580a737521000000000000000000000000000000000000000001fc1040" /-->
+<BodyProperties version="4" age="36.01" weight="0.02" build="0.6867"  key="0013DC0F0058194459776C865583A6C765866483483A7103877668377476567703994635F9D9C864A03060000000000000000000000000390000000037349002"  />
+      <!-- Rhagaea needs to be at least in her mid-40s, as she has a grown daughter. She needs to be attractive, with searching eyes. -->
+    </face>
+    <Traits>
+      <!--NONCOMBATANT FEMALE. LEADER-->
+      <Trait id="KnightFightingSkills"
+             value="5" />
+      <Trait id="Commander"
+             value="6" />
+      <Trait id="Politician"
+             value="5" />
+      <Trait id="Manager"
+             value="6" />
+      <Trait id="Valor"
+             value="1" />
+      <Trait id="Generosity"
+             value="-1" />
+      <Trait id="Honor"
+             value="1" />
+      <Trait id="Authoritarian"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentRoster civilian="true" />
+      <EquipmentSet id="emp_bat_template_flamboyant" />
+      <EquipmentSet id="emp_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lord_2_1"
+                name="{=rNrq6QdU}Vsevolod III"
+                age="38"
+                voice="curt"
+                is_hero="true"
+                default_group="Infantry"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+      <BodyProperties version="4"
+                      weight="0.5"
+                      build="0.7"
+                      key="0000500140BC09429E895C86B34CA38993A369B8B287576979538AC46B678B940177781307C60384000000000000000000000000000000000000000000F05180" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HuscarlFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="7" />
+      <Trait id="Politician"
+             value="8" />
+      <Trait id="Manager"
+             value="6" />
+      <Trait id="Mercy"
+             value="-1" />
+      <Trait id="Honor"
+             value="-1" />
+      <Trait id="Valor"
+             value="1" />
+      <Trait id="Generosity"
+             value="-1" />
+      <Trait id="Calculating"
+             value="1" />
+      <Trait id="Authoritarian"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_template_flamboyant" />
+      <EquipmentSet id="stu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lord_3_1"
+                name="{=r3oIoCr8}Saladin"
+                age="54"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+<BodyProperties version="4" weight="0.5772" build="0.5"  key="001EA40D0000048E95D782A6EA4848B93CD17D548961C52321C3C53496898C2D0597965609BC35E8000000000000000000000000000000000000000011241105"  />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="5" />
+      <Trait id="Commander"
+             value="9" />
+      <Trait id="Politician"
+             value="7" />
+      <Trait id="Manager"
+             value="7" />
+      <Trait id="Valor"
+             value="1" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Calculating"
+             value="3" />
+      <Trait id="Mercy"
+             value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_template_flamboyant" />
+      <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lord_4_1"
+                name="{=jEIsVazl}Richard I"
+                age="35"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0000fe42c000220458c56743d5b5ab56396a8c717b876e66c7b287ab79c2a84b0005400905c96766000000000000000000000000000000000000000001282000" /-->
+<BodyProperties version="4" weight="0.0062" build="0.3688"  key="0005AC04C000038E4A7568275569779968D576697686A2B77816983588C23C3502C63624FC9445576016B00205843000000000000000002C00000000379C3002"  />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="6" />
+      <Trait id="Commander"
+             value="9" />
+      <Trait id="Politician"
+             value="5" />
+      <Trait id="Manager"
+             value="7" />
+      <Trait id="Calculating"
+             value="1" />
+      <Trait id="Mercy"
+             value="1" />
+      <Trait id="Valor"
+             value="3" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lord_5_1"
+                name="{=w51wGx4b}Canute VI"
+                age="29"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="00054548800027875ca466a563442bd406899779a794573b86a7c473581ab487000e66550e46c99d000000000000000000000000000000000000000001f83180" /-->
+      <BodyProperties version="4"
+                      key="00054408800027875CA466A563442BD406899779A794573B86A7C473581AB487000546550E46C99D000000000000000000000000000000000000000000F03180" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="10" />
+      <Trait id="Commander"
+             value="8" />
+      <Trait id="Politician"
+             value="8" />
+      <Trait id="Manager"
+             value="4" />
+      <Trait id="Mercy"
+             value="-1" />
+      <Trait id="Honor"
+             value="-1" />
+      <Trait id="Valor"
+             value="1" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Egalitarian"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lord_6_1"
+                name="{=Toj0vayQ}Kilij Arslan II"
+                age="73"
+                voice="curt"
+                default_group="Cavalry"
+                is_hero="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0016ff8fc000274d9ebf61ffb76ea46ea4959af6f9a58e3dc8756149d64b84a8000ee65d09b1e944000000000000000000000000000000000000000000a07080" /-->
+<BodyProperties version="4" weight="0.2793" build="0.5602"  key="001B4401402C06C364B64AA365377388576488E86D6C652E852C8349C8B97842077846790734968400000000000000000000000000000000000000003EEC3106"  />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="7" />
+      <Trait id="Commander"
+             value="7" />
+      <Trait id="Politician"
+             value="9" />
+      <Trait id="Manager"
+             value="6" />
+      <Trait id="Mercy"
+             value="-1" />
+      <Trait id="Honor"
+             value="-1" />
+      <Trait id="Calculating"
+             value="1" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Authoritarian"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_template_flamboyant" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>
