@@ -15,6 +15,13 @@
     <SubModules></SubModules>
 	<Xmls>
 		<XmlNode>
+		  <XmlName id="Factions" path="spclans"/>
+		  <IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		  </IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
 		  <XmlName id="Kingdoms" path="kingdoms"/>
 		  <IncludedGameTypes>
 			<GameType value = "Campaign"/>
