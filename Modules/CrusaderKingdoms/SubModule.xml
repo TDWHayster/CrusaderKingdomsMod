@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Crusader Kingdoms"/>
+	<Id value="CrusaderKingdoms"/>
+	<Version value="e1.6.4"/>
+	<DefaultModule value="false"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+  	<Official value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.6.4"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="e1.6.4"/>
+		<DependedModule Id="Sandbox" DependentVersion="e1.6.4"/>
+	</DependedModules>
+    <SubModules></SubModules>
+	<Xmls>
+		<XmlNode>
+		  <XmlName id="Kingdoms" path="kingdoms"/>
+		  <IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		  </IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>
