@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value="Crusader Kingdoms Master"/>
-	<Id value="CrusaderKingdomsMaster"/>
+	<Name value="Crusader Kingdoms I: MASTER"/>
+	<Id value="CK1 Lionheart Master"/>
 	<Version value="e1.6.4"/>
 	<DefaultModule value="false"/>
 	<SingleplayerModule value="true"/>

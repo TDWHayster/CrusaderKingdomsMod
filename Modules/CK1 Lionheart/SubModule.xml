@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value="Crusader Kingdoms"/>
-	<Id value="CrusaderKingdoms"/>
+	<Name value="Crusader Kingdoms I: Lionheart"/>
+	<Id value="CK1 Lionheart"/>
 	<Version value="e1.6.4"/>
 	<DefaultModule value="false"/>
 	<SingleplayerModule value="true"/>
