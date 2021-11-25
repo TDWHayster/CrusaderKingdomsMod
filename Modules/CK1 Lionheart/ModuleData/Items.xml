@@ -1,0 +1,16 @@
+<Items>
+
+  <Item id="pot_helm" name="{=PotHelmA}Crusader's Pot Helm" mesh="pot_helm_without_mail_low" culture="Culture.empire" weight="4.3" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="28" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="pot_helm_with_mail" name="{=PotHelmA}Crusader's Pot Helm With Mail" mesh="pot_helm_low" culture="Culture.empire" weight="4.3" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+</Items>
